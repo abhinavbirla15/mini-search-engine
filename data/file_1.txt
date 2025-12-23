@@ -1,0 +1,7 @@
+Introduction to Python Programming
+
+Python is a high-level programming language known for its simplicity and readability. Created by Guido van Rossum in 1991, it emphasizes code readability and allows developers to express concepts in fewer lines of code than languages like C++ or Java. Python supports multiple programming paradigms, including procedural, object-oriented, and functional programming.
+
+Key features include dynamic typing, automatic memory management, and a vast standard library. It's widely used in web development, data science, artificial intelligence, and automation. Popular frameworks like Django for web apps and TensorFlow for machine learning are built on Python.
+
+Beginners often start with Python due to its gentle learning curve. Resources like the official Python documentation and tutorials on sites like Codecademy make it accessible. Whether you're building a simple script or a complex application, Python's versatility makes it a top choice for developers worldwide.

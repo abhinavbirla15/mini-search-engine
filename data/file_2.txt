@@ -1,0 +1,7 @@
+The History of Artificial Intelligence
+
+Artificial Intelligence (AI) has evolved from a theoretical concept to a transformative technology. The term was coined by John McCarthy in 1956 at the Dartmouth Conference, where researchers explored machine learning and problem-solving.
+
+Early milestones include the development of expert systems in the 1970s and neural networks in the 1980s. The 21st century brought breakthroughs like deep learning, powered by big data and GPUs. Companies like Google, Amazon, and OpenAI have advanced AI in areas such as natural language processing, computer vision, and autonomous vehicles.
+
+Ethical concerns, including bias in algorithms and job displacement, are increasingly discussed. Despite challenges, AI continues to innovate, promising solutions in healthcare, education, and environmental sustainability. The future of AI depends on responsible development and global collaboration.
