@@ -1,12 +1,12 @@
 from tokenizer import tokenizer
 
-def search_and(query,index):
-    query_words=tokenizer(query)
+def search_and(query, index):
+    query_words = tokenizer(query)
 
     if not query_words:
         return set()
     
-    result_sets=None
+    result_sets = None
 
     for word in query_words:
         if word in index:
@@ -33,7 +33,7 @@ def search_or(query, index):
 
     return result_set
 
-def search(query, index, mode='or'):
+def search(query, index, mode = 'or'):
     if mode == 'and':
         return search_and(query, index)
     elif mode == 'or':

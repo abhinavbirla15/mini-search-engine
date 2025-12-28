@@ -2,6 +2,7 @@ from tokenizer import tokenizer
 from collections import defaultdict
 import math
 
+#cosine similarity based ranking
 def build_query_vector(query, idf, tokenizer):
     tokens = tokenizer(query)
 
@@ -47,19 +48,21 @@ def cosine_similarity(query_vector, doc_vector):
 
     return dot_product / (math.sqrt(query_mag) * math.sqrt(doc_mag))
 
-def rank_candidates(query,candidates,index,idf):
-    results={}
+# Simple TF-IDF based ranking
+def rank_candidates(query, candidates, index,idf):
+    results = {}
     for candidate in candidates:
-        score=0.0
+        score = 0.0
         for word in tokenizer(query):
             if word in index and candidate in index[word]:
-                tf=index[word][candidate]
-                idf_value=idf.get(word,0.0)
+                tf = index[word][candidate]
+                idf_value = idf.get(word, 0.0)
                 score += tf * idf_value
-        if score>0.0:
-            results[candidate]=score
+        if score > 0.0:
+            results[candidate] = score
     return results
 
+# BM25 based ranking- currently used in main.py
 def bm25_rank(query_tokens, candidates, index, idf, doc_lengths, avg_dl, k1=1.5, b=0.75):
     scores = {}
 
