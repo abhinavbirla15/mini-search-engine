@@ -39,8 +39,5 @@ The goal of this project is to apply **DSA concepts in a practical way**, not ju
 - Streamlit (UI)
 - Standard Python Libraries (`collections`, `math`, `os`)
 
----
-
-## 📂 Project Structure
 
 
